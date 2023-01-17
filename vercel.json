@@ -1,0 +1,10 @@
+{
+   "version": 2,
+   "name": "Dapp-RPOOL-Back-end",
+   "builds": [
+      { "src": "pancakebetserver.js", "use": "@vercel/node" }
+   ],
+   "routes": [
+      { "src": "/(.*)", "dest": "/pancakebetserver.js" }
+   ]
+}
