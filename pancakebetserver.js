@@ -114,6 +114,12 @@ app.get('/getStatus', async function(req, res){
     return
 });
 
+app.get('/', async function(req, res) {
+   res.json({
+      message: 'SUCCESS'
+   })
+});
+
 
 
 
